@@ -1,0 +1,82 @@
+.Wrapper{
+    grid-area: Wrapper;
+    /* grid-row: 3 / 3;
+    grid-column: 2 / 3; */
+    border-radius: 10px;;
+    height:90%;
+    margin: 20px;
+    padding: 10px;
+    overflow:auto;
+}
+
+.Item {
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 1fr 0.3fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    
+    border-radius: 5px;;
+    padding: 5px;
+    margin-top: 10px;;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: honeydew;
+}
+
+.Task {
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.FinishedTask {
+    padding: 5px;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: green;
+}
+
+.TaskDate {
+    display: grid;
+    justify-content: right;
+    padding: 5px;
+    font-style: italic;
+}
+
+.Btn {
+    border: none;
+    width:100%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Success {
+    color: #fff;
+    background-color: #3c763d;
+}
+.Success:hover{
+    color: #fff;
+    background-color: #2b542c;
+}
+
+.Primary {
+    color: #fff;
+    background-color: #0495c9;
+}
+.Primary:hover {
+    color: #fff;
+    background-color: #00b3db;
+}
+
+.Danger {
+    color: #fff;
+    background-color: #d9534f;
+}
+.Danger:hover {
+    color: #fff;
+    background-color: #be4f4b;
+}

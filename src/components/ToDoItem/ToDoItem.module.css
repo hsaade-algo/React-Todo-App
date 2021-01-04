@@ -1,0 +1,64 @@
+.ToDoItem{
+    grid-area: ToDoItem;
+    /* grid-row: 2 / 3;
+    grid-column: 2 / 3; */
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.5fr 2fr 1fr 0.5fr;
+    grid-gap: 10px;
+    justify-content:space-around;
+    align-items: center;
+    
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Task {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.DatePicker {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.Btn {
+    border: none;
+    width:100%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Success {
+    color: #fff;
+    background-color: #3c763d;
+}
+.Success:hover{
+    color: #fff;
+    background-color: #2b542c;
+}
+
+.Primary {
+    color: #fff;
+    background-color: #0495c9;
+}
+.Primary:hover {
+    color: #fff;
+    background-color: #00b3db;
+}
